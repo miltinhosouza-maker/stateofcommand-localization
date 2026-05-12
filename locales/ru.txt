@@ -1,0 +1,360 @@
+# -------------------------------------
+# State of Command: Russian locale
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
+
+# Main Menu
+menu.button.start_game=Начать игру
+menu.button.profile=Профиль
+menu.button.settings=Настройки
+menu.button.quit=Выйти
+menu.intro.presented_by=Представлено вам
+
+# Main Menu Settings
+menu.settings.title=Настройки
+menu.settings.language=Язык
+
+# UI Manager| Flag Bar
+ui.button.diplomacy=Дипломатия
+ui.button.economy=Экономика
+ui.button.unset=Сбросить
+ui.button.military=Военное дело
+
+# UI Manager| Country Select
+ui.button.play_as=Играть за
+
+# UI Manager| Settings
+ui.window.settings=Настройки
+ui.settings.secondary_icons=Использовать вторичные значки юнитов
+ui.settings.flag_zoom_out=Показывать флаг при отдалении (юниты)
+ui.settings.nation_overlay=Наложение наций (N)
+ui.settings.always_flag=Всегда показывать флаг на юнитах (F)
+ui.settings.unit_size=Размер юнитов
+
+# UI Manager| City tab (single city)
+ui.label.pop=Население: %d
+ui.label.buildings=Здания:
+ui.label.no_buildings=Нет зданий
+ui.label.construct=Построить:
+ui.button.factory=Фабрика
+ui.button.military_hq=Военный штаб
+ui.button.depot=Склад
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=Выбрано городов: %zu
+ui.label.total_buildings=Всего зданий:
+ui.label.no_buildings_selected=В выбранных городах нет зданий
+ui.button.create_units=Создать юнитов
+ui.button.construct_buildings=Построить здания
+
+# UI Manager| Building Tab
+ui.building.industrial_factory=Промышленная фабрика
+ui.building.production_lines=Производственные линии:
+ui.building.inventory=Инвентарь:
+ui.building.no_items=Нет предметов
+ui.button.add_production_line=Добавить производственную линию
+ui.building.military_hq_title=Военный штаб
+ui.button.spawn_unit=Создать юнита
+ui.building.supply_depot=Склад снабжения
+ui.building.stored_equipment=Хранимое снаряжение:
+ui.label.empty=Пусто
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type=Выберите тип юнита:
+ui.button.cancel=Отмена
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment=Нет снаряжения
+ui.tooltip.morale=Моральный дух: %.1f
+ui.tooltip.retreat_behavior=Поведение при отступлении: %s
+ui.retreat.normal=Обычное
+ui.retreat.hold_position=Удерживать позицию
+ui.retreat.fallback=Отход
+ui.tooltip.forming=ФОРМИРОВАНИЕ: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active=РЕЖИМ ВТОРЖЕНИЯ АКТИВЕН
+ui.invasion.draw_line=Нарисуйте линию наступления для плана
+ui.invasion.toggle_off=Нажмите 'I' для отключения
+ui.button.execute=ВЫПОЛНИТЬ
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building=Построить здание
+ui.label.construct_building=Построить здание:
+
+# UI Manager| Diplomacy tab
+ui.diplomacy.your_nation=Ваша нация:
+ui.diplomacy.status_ally=СОЮЗНИК
+ui.diplomacy.status_war=В СОСТОЯНИИ ВОЙНЫ
+ui.diplomacy.status_neutral=Нейтрально
+ui.diplomacy.button_ally=Объявить союз
+ui.diplomacy.button_war=Объявить войну
+ui.diplomacy.button_break_alliance=Разорвать союз
+ui.diplomacy.button_peace=Объявить мир
+ui.diplomacy.info_tooltip=Правый клик по карте, чтобы закрыть
+
+# Editor| Top Bar
+editor.btn.provinces=Провинции
+editor.btn.cities=Города
+editor.btn.urban=Городские зоны
+editor.btn.roads=Дороги
+editor.btn.buildings=Здания
+editor.btn.units=Юниты
+editor.btn.nations=Нации
+editor.btn.draw_province=Нарисовать провинцию
+editor.btn.definitions=Определения
+editor.btn.ref=+ Ссылка
+editor.tooltip.render_settings=Настройки отрисовки
+editor.label.modified=[ИЗМЕНЕНО]
+editor.label.no_map=Карта не загружена — откройте Браузер ресурсов для загрузки набора карт
+
+# Editor| Resource Browser
+editor.window.resource_browser=Просмотр ресурсов
+editor.tab.maps=Карты
+editor.tab.units=Юниты
+editor.tab.flags=Флаги
+editor.btn.refresh=Обновить
+editor.btn.load_map=Загрузить карту
+editor.btn.save_map=Сохранить карту
+editor.btn.load_unit_set=Загрузить набор юнитов
+editor.btn.save_flags=Сохранить флаги
+editor.btn.load_flag_set=Загрузить набор флагов
+editor.btn.duplicate=Дублировать
+editor.btn.save_to=Сохранить в...
+editor.hint.new_set_name=Имя нового набора...
+editor.btn.create=Создать
+editor.btn.save_all=Сохранить всё (Ctrl+S)
+editor.label.unsaved=Несохранённые изменения!
+editor.hint.or_new_name=Или введите новое имя...
+editor.btn.save=Сохранить
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title=Дублировать набор
+editor.popup.duplicate_format=Дублировать набор %s
+editor.popup.new_name_label=Новое имя
+editor.btn.duplicate_confirm=Дублировать
+editor.btn.cancel=Отмена
+editor.popup.save_to_title=Сохранить в набор
+editor.popup.save_to_format=Сохранить текущие данные в набор %s:
+editor.set_type.map=Карта
+editor.set_type.unit=Юнит
+editor.set_type.flag=Флаг
+
+# Editor| Province Panel
+editor.window.province=Свойства провинции
+editor.label.province_id=ID провинции: %d
+editor.input.province_name=Название провинции
+editor.input.owning_nation=Владеющая нация
+editor.input.assign_nation=Назначить нации
+editor.label.vertices=Вершины: %d  (граница: %d)
+editor.label.vertex_info=Вершина #%d  (%.6f, %.6f)
+editor.input.vertex_pos=Позиция
+editor.label.belongs_to=Принадлежит провинции: %d (%s)
+editor.input.reassign_id=Переназначить на ID провинции
+editor.btn.reassign=Переназначить вершину
+editor.btn.remove_vertex=Удалить вершину
+editor.label.interior_vertex=(внутренняя вершина)
+editor.label.min_verts=(мин. 3 вершины)
+editor.label.province_management=Управление провинцией
+editor.btn.stop_adding=Прекратить добавление
+editor.btn.add_vertex=Добавить вершину
+editor.label.click_boundary=Кликните по границе для вставки
+editor.btn.draw_new_province=Нарисовать новую провинцию
+editor.label.drawing_verts=Рисование... (%d вершин)
+editor.btn.delete_province=Удалить эту провинцию
+
+# Editor| Nation Panel
+editor.window.nation=Свойства нации
+editor.label.nation_hash=Хеш: %u  Провинций: %d
+editor.input.nation_name=Название нации
+editor.label.no_flag=(нет флага)
+editor.label.flag_set=Набор флагов: %s
+editor.btn.change_flag=Сменить флаг...
+editor.label.allies=Союзники
+editor.btn.add_ally=Добавить союзника
+editor.label.enemies=Враги
+editor.btn.add_enemy=Добавить врага
+editor.label.province_list_header=Список провинций
+editor.label.state_management=Управление государством
+editor.input.new_state_name=Имя нового государства##newstate
+editor.btn.create_state=Создать государство
+editor.btn.delete_state=Удалить это государство
+
+# Editor| City Panel
+editor.window.city=Редактор городов
+editor.label.cities_count=Городов: %d
+editor.btn.placing_cities=Размещение городов...
+editor.btn.place_city=Разместить город
+editor.label.click_map_place=Кликните по карте для размещения
+editor.label.city_id=Город #%d
+editor.input.city_name=Имя
+editor.input.city_state=Государство
+editor.input.city_province=Провинция
+editor.input.population=Население
+editor.input.lon_lat=Долгота / Широта
+editor.checkbox.urban_area=Городская зона
+editor.label.world_coords=Мир: (%.4f, %.4f)
+editor.btn.delete_city=Удалить город
+editor.input.filter=Фильтр
+
+# Editor| Road Panel
+editor.window.road=Редактор дорог
+editor.label.segments=Сегментов: %d
+editor.btn.new_segment=Новый сегмент
+editor.label.add_mode=РЕЖИМ ДОБАВЛЕНИЯ
+editor.btn.stop=Стоп
+editor.btn.add_points=Добавить точки
+editor.label.segment_info=Сегмент #%d (%d точек)
+editor.input.point_pos=Позиция точки
+editor.btn.delete_point=Удалить точку
+editor.btn.delete_segment=Удалить сегмент
+
+# Editor| Building Panel
+editor.window.building=Редактор зданий
+editor.label.buildings_click=Зданий: %d  — кликните по карте для размещения
+editor.label.building_id=Здание #%d
+editor.input.building_type=Тип
+editor.input.owner_state=Государство-владелец
+editor.input.city_assign=Город
+editor.input.building_pos=Позиция
+editor.label.drag_map=Перетаскивайте по карте для перемещения
+editor.label.factory_props=Свойства фабрики
+editor.input.throughput=Пропускная способность
+editor.input.shipping_threshold=Порог отгрузки
+editor.label.production_lines_count=Производственных линий: %d
+editor.input.equipment=Снаряжение
+editor.input.capacity=Вместимость
+editor.btn.remove=Удалить
+editor.btn.add_production_line=Добавить производственную линию
+editor.label.depot_props=Свойства склада
+editor.input.max_equipment=Макс. вместимость снаряжения
+editor.input.max_manpower=Макс. вместимость личного состава
+editor.label.military_hq=Военный штаб
+editor.label.no_additional_props=Нет дополнительных свойств
+editor.btn.delete_building=Удалить здание
+
+# Editor| Unit Panel
+editor.window.unit=Редактор юнитов
+editor.label.units_click=Юнитов: %d  — кликните по карте для размещения
+editor.label.unit_id=Юнит #%d
+editor.input.given_name=Имя
+editor.label.given_name_hint=Имя юнита (необязательно, будет сгенерировано автоматически)
+editor.input.definition=Определение
+editor.checkbox.fully_formed=Полностью сформирован (создать на полной численности)
+editor.btn.generate_name=Автоимя
+editor.btn.delete_unit=Удалить юнит
+
+# Editor| Status Bar
+editor.mode.provinces=Провинции
+editor.mode.cities=Города
+editor.mode.urban_areas=Городские зоны
+editor.mode.roads=Дороги
+editor.mode.buildings=Здания
+editor.mode.units=Юниты
+editor.mode.nations=Нации
+editor.status.modified= [ИЗМЕНЕНО]
+editor.status.dropper_active= | ПИПЕТКА АКТИВНА
+editor.status.add_vertex= | ДОБАВИТЬ ВЕРШИНУ
+editor.status.no_map=Карта не загружена
+
+# Editor| Help Overlay
+editor.window.controls=Управление
+editor.help.navigation=Навигация
+editor.help.wasd=WASD / Правое перетаскивание: Панорама
+editor.help.scroll=Прокрутка: Масштаб
+editor.help.selection=Выбор
+editor.help.click=Клик: Выбрать / Разместить
+editor.help.shift_click=Shift+Клик: Нация (режим Провинций)
+editor.help.drag=Перетаскивание: Переместить выбранное
+editor.help.escape=Escape: Отменить выбор
+editor.help.ctrl_s=Ctrl+S: Сохранить всё
+editor.help.pick=Кнопка выбора: Инструмент «Пипетка»
+
+# Editor| Dropper Overlay
+editor.dropper.click_province=Кликните по провинции, чтобы выбрать государство
+
+# Editor| Dropper Button
+editor.btn.picking=Выбор...
+editor.btn.pick=Выбрать
+editor.tooltip.dropper=Кликните по провинции на карте, чтобы выбрать её государство-владельца
+
+# Editor| Nation/Province Combo Filters
+editor.hint.search_nations=Поиск наций...
+editor.hint.search_provinces=Поиск провинций...
+
+# ---- Editor — Province Creation Panel ----
+editor.window.draw_province=Нарисовать провинцию
+editor.label.click_map_vertices=Кликните по карте для размещения вершин
+editor.label.vertices_placed=Размещено вершин: %d
+editor.input.create_prov_name=Имя##crprov
+editor.input.create_prov_state=Государство##crprov
+editor.btn.undo_last=Отменить последнюю вершину
+editor.btn.finish_province=Завершить провинцию
+editor.label.or_click_first=Или кликните рядом с первой вершиной (зелёная точка), чтобы замкнуть фигуру.
+editor.label.min_3_verts=Разместите минимум 3 вершины для завершения.
+
+# Editor| Reference Overlay Panel
+editor.window.ref_image=Свойства референсного изображения
+editor.btn.delete=Удалить
+editor.btn.unlock=Разблокировать
+editor.btn.lock=Заблокировать
+editor.btn.hide=Скрыть
+editor.btn.show=Показать
+editor.input.opacity=Прозрачность
+editor.input.position=Позиция
+editor.input.size=Размер (Ш/В)
+editor.input.scale=Масштаб
+editor.btn.fit_to_map=Подогнать под карту
+
+# Editor| Render Settings
+editor.window.render_settings=Настройки отрисовки
+editor.label.tile_textures=Текстуры тайлов
+editor.checkbox.show_tile_textures=Показывать текстуры тайлов
+editor.input.tint_strength=Сила оттенка
+editor.label.nation_rendering=Отрисовка наций
+editor.checkbox.render_by_nation=Отрисовка по цвету нации
+editor.checkbox.show_nation_flags=Показывать флаги наций
+editor.tooltip.nation_flags=Отрисовка флагов наций над центром их территории
+editor.label.layer_opacities=Прозрачность слоёв
+editor.input.provinces_opacity=Провинции
+editor.input.roads_opacity=Дороги
+editor.input.city_dots_opacity=Точки городов
+editor.input.urban_areas_opacity=Городские зоны
+editor.input.buildings_opacity=Здания
+editor.input.units_opacity=Юниты
+editor.btn.reset_all=Сбросить всё
+
+# Editor| Urban Area Panel
+editor.window.urban=Редактор городских зон
+editor.label.urban_count=Городских зон: %d
+editor.btn.draw_urban=Нарисовать городскую зону
+editor.label.drawing_urban=Рисование... (%d вершин)
+editor.label.urban_id=Городская зона #%d  (%d вершин границы)
+editor.input.urban_name=Имя
+editor.input.urban_state=Государство-владелец
+editor.input.urban_province=Провинция
+editor.input.urban_pop=Население
+editor.input.filter_urban=Фильтр##urban
+
+# Editor| Urban Area Creation Panel
+editor.window.draw_urban=Нарисовать городскую зону
+editor.input.create_urban_name=Имя##crurban
+editor.input.create_urban_state=Государство##crurban
+editor.btn.finish_urban=Завершить городскую зону
+
+# Editor| Nation Editor Tab
+editor.window.nation_editor=Редактор наций
+editor.label.nations_count=Наций: %d
+editor.input.filter_nations=Фильтр##nations
+editor.label.selected_nation=Выбрано: %s
+editor.input.nation_name_ne=Название нации##ne
+editor.label.provinces_ne=Провинции##ne
+
+# Editor| Definition Editor
+editor.window.definition_editor=Редактор определений
+editor.btn.equipment_tab=Снаряжение
+editor.btn.units_tab=Юниты
+editor.btn.save_all_def=Сохранить всё
+editor.btn.close=Закрыть
+editor.label.background_icons=Фоновые значки
