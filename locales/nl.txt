@@ -1,1 +1,360 @@
+# -------------------------------------
+# State of Command: Nederlandse vertaling
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
 
+# Main Menu
+menu.button.start_game=Begin Spel
+menu.button.profile=Profiel
+menu.button.settings=Instellingen
+menu.button.quit=Beëindig Spel
+menu.intro.presented_by=Aangeboden door
+
+# Main Menu Settings
+menu.settings.title=Instellingen
+menu.settings.language=Taal
+
+# UI Manager| Flag Bar
+ui.button.diplomacy=Diplomatie
+ui.button.economy=Economie
+ui.button.unset=Ongedaan Maken
+ui.button.military=Krijgsmacht
+
+# UI Manager| Country Select
+ui.button.play_as=Speel als
+
+# UI Manager| Settings
+ui.window.settings=Instellingen
+ui.settings.secondary_icons=Gebruik Secundaire Eenheidspictogrammen
+ui.settings.flag_zoom_out=Vlag Tonen bij Uitzoomen (Eenheden)
+ui.settings.nation_overlay=Land Kaartlaag (N)
+ui.settings.always_flag=Altijd Vlaggen Tonen voor Eenheden (F)
+ui.settings.unit_size=Eenheid Grootte
+
+# UI Manager| City tab (single city)
+ui.label.pop=Bevk: %d
+ui.label.buildings=Gebouwen:
+ui.label.no_buildings=Geen Gebouwen
+ui.label.construct=Bouw:
+ui.button.factory=Fabriek
+ui.button.military_hq=Militairhoofdkwartier
+ui.button.depot=Magazijn
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=%zu Geselecteerde Steden
+ui.label.total_buildings=Totale Gebouwen:
+ui.label.no_buildings_selected=Geen gebouwen in de geselecteerde stad
+ui.button.create_units=Eenheden Creëren
+ui.button.construct_buildings=Gebouwen Aanleggen
+
+# UI Manager| Building Tab
+ui.building.industrial_factory=Industriële Fabriek
+ui.building.production_lines=Productielijnen:
+ui.building.inventory=Inventaris:
+ui.building.no_items=Geen Voorwerpen
+ui.button.add_production_line=Voeg nieuwe Productielijn toe
+ui.building.military_hq_title=Militairhoofdkwartier
+ui.button.spawn_unit=Eenheid Aanmaken
+ui.building.supply_depot=Bevoorradingsmagazijn
+ui.building.stored_equipment=Opgeslagen Materieel:
+ui.label.empty=Leeg
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type=Select Unit Type:
+ui.button.cancel=Annuleren
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment=Geen Materieel
+ui.tooltip.morale=Gemoedstoestand: %.1f
+ui.tooltip.retreat_behavior=Terugtrekgedrag: %s
+ui.retreat.normal=Normaal
+ui.retreat.hold_position=Positie Behouden
+ui.retreat.fallback=Terugtrekken
+ui.tooltip.forming=SAMENSTELLEN: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active=INVASIEMODUS INGESCHAKELD
+ui.invasion.draw_line=Teken Aanvalslinie om te plannen
+ui.invasion.toggle_off='I' Indrukken om te schakelen
+ui.button.execute=UITVOEREN
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building=Ontwikkel Gebouw
+ui.label.construct_building=Ontwikkel Gebouw:
+
+# UI Manager| Diplomacy tab
+ui.diplomacy.your_nation=Jouw Land:
+ui.diplomacy.status_ally=BONDGENOOT
+ui.diplomacy.status_war=IN OORLOG
+ui.diplomacy.status_neutral=Neutraal
+ui.diplomacy.button_ally=Bondgenootschap Aangaan
+ui.diplomacy.button_war=Oorlog Verklaren
+ui.diplomacy.button_break_alliance=Bondgenootschap Verbreken
+ui.diplomacy.button_peace=Vrede Verklaren
+ui.diplomacy.info_tooltip=Rechtermuistoets op de kaart om te sluiten
+
+# Editor| Top Bar
+editor.btn.provinces=Provincies
+editor.btn.cities=Steden
+editor.btn.urban=Stedelijk
+editor.btn.roads=Wegen
+editor.btn.buildings=Gebouwen
+editor.btn.units=Eenheden
+editor.btn.nations=Landen
+editor.btn.draw_province=Provincie Tekenen
+editor.btn.definitions=Definities
+editor.btn.ref=+ Ref
+editor.tooltip.render_settings=Weergave Instellingen
+editor.label.modified=[GEWIJZIGD]
+editor.label.no_map=Geen kaart geladen - open de materiaalverkenner om een kaart te zetten
+
+# Editor| Resource Browser
+editor.window.resource_browser=Materiaalverkenner
+editor.tab.maps=Kaarten
+editor.tab.units=Eenheden
+editor.tab.flags=Vlaggen
+editor.btn.refresh=Herlaad
+editor.btn.load_map=Laad Kaart
+editor.btn.save_map=Map Opslaan
+editor.btn.load_unit_set=Laad Eenheidsset
+editor.btn.save_flags=Vlaggen Opslaan
+editor.btn.load_flag_set=Laad Vlaggenset
+editor.btn.duplicate=Dupliceren
+editor.btn.save_to=Opslaan als...
+editor.hint.new_set_name=Nieuwe set naam...
+editor.btn.create=Creëren
+editor.btn.save_all=Alles Opslaan (Ctrl+S)
+editor.label.unsaved=Onopgeslagen wijzigingen!
+editor.hint.or_new_name=Of typ een nieuwe naam...
+editor.btn.save=Opslaan
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title=Set Dupliceren
+editor.popup.duplicate_format=Dupliceer %s Set
+editor.popup.new_name_label=Nieuwe Naam
+editor.btn.duplicate_confirm=Dupliceer
+editor.btn.cancel=Annuleren
+editor.popup.save_to_title=Opslaan naar Set
+editor.popup.save_to_format=Sla huidige data op naar een %s set:
+editor.set_type.map=Kaart
+editor.set_type.unit=Eenheid
+editor.set_type.flag=Vlag
+
+# Editor| Province Panel
+editor.window.province=Provincie Instellingen
+editor.label.province_id=Provincie ID: %d
+editor.input.province_name=Provincie Naam
+editor.input.owning_nation=Landeigenaar
+editor.input.assign_nation=Geef aan Land
+editor.label.vertices=Hoekpunten: %d  (boundary: %d)
+editor.label.vertex_info=Hoekpunt #%d  (%.6f, %.6f)
+editor.input.vertex_pos=Positie
+editor.label.belongs_to=Behoort tot Provincie: %d (%s)
+editor.input.reassign_id=Wijzig naar Provincie ID
+editor.btn.reassign=Hoekpunt Wijzigen
+editor.btn.remove_vertex=Hoekpunt Verwijderen
+editor.label.interior_vertex=(binnenhoekpunt)
+editor.label.min_verts=(min 3 hoekpunten)
+editor.label.province_management=Provinciebeheer
+editor.btn.stop_adding=Stop met Toevoegen
+editor.btn.add_vertex=Voeg Hoekpunt toe
+editor.label.click_boundary=Klik grens om toe te voegen
+editor.btn.draw_new_province=Nieuwe Provincie Tekenen
+editor.label.drawing_verts=Tekenen... (%d verts)
+editor.btn.delete_province=Provincie Verwijderen
+
+# Editor| Nation Panel
+editor.window.nation=Natie Instellingen
+editor.label.nation_hash=Hash: %u  Provincies: %d
+editor.input.nation_name=Landsnaam
+editor.label.no_flag=(geen vlag)
+editor.label.flag_set=Vlagselectie : %s
+editor.btn.change_flag=Wijzig Vlag...
+editor.label.allies=Bondgenoten
+editor.btn.add_ally=Bondgenoot Toevoegen
+editor.label.enemies=Vijanden
+editor.btn.add_enemy=Vijand Toevoegen
+editor.label.province_list_header=Provincielijst
+editor.label.state_management=Staatsbeheer
+editor.input.new_state_name=Nieuwe Staatsnaam##newstate
+editor.btn.create_state=Staat Creëren
+editor.btn.delete_state=Staat Verwijderen
+
+# Editor| City Panel
+editor.window.city=Stad Editor
+editor.label.cities_count=Steden: %d
+editor.btn.placing_cities=Steden Neerzetten...
+editor.btn.place_city=Plaats Stad
+editor.label.click_map_place=Klik de kaart om te plaatsen
+editor.label.city_id=Stad #%d
+editor.input.city_name=Naam
+editor.input.city_state=Staat
+editor.input.city_province=Provincie
+editor.input.population=Bevolking
+editor.input.lon_lat=Lon / Lat
+editor.checkbox.urban_area=Stedelijke Omgeving
+editor.label.world_coords=Wereld: (%.4f, %.4f)
+editor.btn.delete_city=Stad Verwijderen
+editor.input.filter=Filter
+
+# Editor| Road Panel
+editor.window.road=Weg Editor
+editor.label.segments=Segments: %d
+editor.btn.new_segment=Nieuw Segment
+editor.label.add_mode=MODE TOEVOEGEN
+editor.btn.stop=Stoppen
+editor.btn.add_points=Punten Toevoegen
+editor.label.segment_info=Segment #%d (%d pts)
+editor.input.point_pos=Punt Pos
+editor.btn.delete_point=Punt Verwijderen
+editor.btn.delete_segment=Segment Verwijderen
+
+# Editor| Building Panel
+editor.window.building=Gebouwen Editor
+editor.label.buildings_click=Gebouwen: %d  — klik kaart om te plaatsen
+editor.label.building_id=Gebouw #%d
+editor.input.building_type=Type
+editor.input.owner_state=State Eigenaar
+editor.input.city_assign=Stad
+editor.input.building_pos=Pos
+editor.label.drag_map=Sleep over de kaart om te bewegen
+editor.label.factory_props=Fabrieks Instellingen
+editor.input.throughput=Doorvoercapaciteit
+editor.input.shipping_threshold=Verzenddrempel
+editor.label.production_lines_count=Productielijnen: %d
+editor.input.equipment=Materieel
+editor.input.capacity=Capaciteit
+editor.btn.remove=Verwijder
+editor.btn.add_production_line=Productielijn Toevoegen
+editor.label.depot_props=Magazijnsinstellingen
+editor.input.max_equipment=Max Materieel Capaciteit
+editor.input.max_manpower=Max Mankracht Capaciteit
+editor.label.military_hq=Militairhoofdkwartier
+editor.label.no_additional_props=Geen Overige Instellingen
+editor.btn.delete_building=Gebouw Verwijderen
+
+# Editor| Unit Panel
+editor.window.unit=Eenheid Editor
+editor.label.units_click=Eenheden: %d  — klik kaart om te plaatsen
+editor.label.unit_id=Eenheid #%d
+editor.input.given_name=Naam
+editor.label.given_name_hint=Eenheid Naam (niet vereist zal auto genereren)
+editor.input.definition=Definitie
+editor.checkbox.fully_formed=Volledig Gevormd (Genereer op volle sterkte)
+editor.btn.generate_name=Auto naam
+editor.btn.delete_unit=Eenheid Verwijderen
+
+# Editor| Status Bar
+editor.mode.provinces=Provincies
+editor.mode.cities=Steden
+editor.mode.urban_areas=Stedelijke Omgeving
+editor.mode.roads=Wegen
+editor.mode.buildings=Gebouwen
+editor.mode.units=Eenheden
+editor.mode.nations=Landen
+editor.status.modified= [GEWIJZIGD]
+editor.status.dropper_active= | DROPPER ACTIEF
+editor.status.add_vertex= | ADD HOEKPUNT
+editor.status.no_map=Geen kaart geladen
+
+# Editor| Help Overlay
+editor.window.controls=Bediening
+editor.help.navigation=Navigatie
+editor.help.wasd=WASD / Rechtermuisknop Slepen: Scherm Verschuiven
+editor.help.scroll=Scroll: Zoom
+editor.help.selection=Selectie
+editor.help.click=Klik: Selecteren / Plaatsen
+editor.help.shift_click=Shift+Klik: Land (Prov mode)
+editor.help.drag=Sleep: Move geselecteerd
+editor.help.escape=Escape: Selectie ongedaan maken
+editor.help.ctrl_s=Ctrl+S: Alles Opslaan
+editor.help.pick=Pick button: Dropper tool
+
+# Editor| Dropper Overlay
+editor.dropper.click_province=Klik provincie om staat te kiezen
+
+# Editor| Dropper Button
+editor.btn.picking=Kiezen...
+editor.btn.pick=Kies
+editor.tooltip.dropper=Klik op een provincie op de kaart om de Landeigenaar te selecteren
+
+# Editor| Nation/Province Combo Filters
+editor.hint.search_nations=Landen Zoeken...
+editor.hint.search_provinces=Provincies Zoeken...
+
+# ---- Editor — Province Creation Panel ----
+editor.window.draw_province=Provincies Tekenen
+editor.label.click_map_vertices=Klik op de kaart om hoekpunten de plaatsen
+editor.label.vertices_placed=Hoekpunten geplaatst: %d
+editor.input.create_prov_name=Naam##crprov
+editor.input.create_prov_state=Staat##crprov
+editor.btn.undo_last=Laatste hoekpunt ongedaan maken
+editor.btn.finish_province=Provincie Voltooien
+editor.label.or_click_first=Of klik het eerste hoekpunt (groene punt) om de vorm te voltooien.
+editor.label.min_3_verts=Plaats in ieder geval drie hoekpunten om af te ronden.
+
+# Editor| Reference Overlay Panel
+editor.window.ref_image=Referentieafbeelding Eigenschappen
+editor.btn.delete=Verwijderen
+editor.btn.unlock=Ontgrendelen
+editor.btn.lock=Vergrendelen
+editor.btn.hide=Verbergen
+editor.btn.show=Tonen
+editor.input.opacity=Doorzichtigheid
+editor.input.position=Positie
+editor.input.size=Grootte (W/H)
+editor.input.scale=Schaal
+editor.btn.fit_to_map=Passend maken voor de kaart
+
+# Editor| Render Settings 
+editor.window.render_settings=Weergave instellingen
+editor.label.tile_textures=Tegeltexturen
+editor.checkbox.show_tile_textures=Toon Tegeltexturen
+editor.input.tint_strength=Tintsterkte
+editor.label.nation_rendering=Land Weergave
+editor.checkbox.render_by_nation=Weergave bij Landskleur
+editor.checkbox.show_nation_flags=Toon Landvlaggen
+editor.tooltip.nation_flags=Landsvlaggen weergeven over het middenpunt van het land
+editor.label.layer_opacities=Laagdoorzichtigheid
+editor.input.provinces_opacity=Provincies
+editor.input.roads_opacity=Wegen
+editor.input.city_dots_opacity=Stadspunten
+editor.input.urban_areas_opacity=Stedelijke Omgevingen
+editor.input.buildings_opacity=Gebouwen
+editor.input.units_opacity=Eenheden
+editor.btn.reset_all=Wis Alles
+
+# Editor| Urban Area Panel
+editor.window.urban=Stedelijke Omgeving Editor
+editor.label.urban_count=Stedelijke Omgevingen: %d
+editor.btn.draw_urban=Stedelijke Omgeving Tekenen
+editor.label.drawing_urban=Tekenen... (%d hoekpunten)
+editor.label.urban_id=Stedelijke Omgeving #%d  (%d hoekpunten)
+editor.input.urban_name=Naam
+editor.input.urban_state=Eigenaar Staat
+editor.input.urban_province=Provincie
+editor.input.urban_pop=Bevolking
+editor.input.filter_urban=Filter##stedelijk
+
+# Editor| Urban Area Creation Panel
+editor.window.draw_urban=Teken Stedelijke Omgeving
+editor.input.create_urban_name=Naam##crurban
+editor.input.create_urban_state=Staat##crurban
+editor.btn.finish_urban=Stedelijke Omgeving Voltooien
+
+# Editor| Nation Editor Tab
+editor.window.nation_editor=Land Editor
+editor.label.nations_count=Landen: %d
+editor.input.filter_nations=Filter##Landen
+editor.label.selected_nation=Geselecteerd: %s
+editor.input.nation_name_ne=Landen Naam##ne
+editor.label.provinces_ne=Provincies##ne
+
+# Editor| Definition Editor 
+editor.window.definition_editor=Definitie Editor
+editor.btn.equipment_tab=Militair Materieel
+editor.btn.units_tab=Eenheden
+editor.btn.save_all_def=Alles Opslaan
+editor.btn.close=Sluiten
+editor.label.background_icons=Achtergrond Icoon
